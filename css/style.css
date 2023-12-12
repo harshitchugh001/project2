@@ -609,7 +609,10 @@ img{
   position: relative;
   display: inline-block;
   padding: 26px 0px;
+  
+
 }
+
 
 .main-header .logo-box .logo:before{
   position: absolute;
