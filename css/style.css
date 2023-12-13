@@ -621,8 +621,11 @@ img{
   width: 216px;
   height: 52px;
   left: -20px;
-  bottom: -52px;
+  bottom: -50px;
   background-repeat: no-repeat;
+}
+.navigation1{
+  margin-top: 12px;
 }
 
 
@@ -834,7 +837,7 @@ width: 100%;
 .main-menu .navigation > li{
   position:relative;
   float:left;
-  margin: 10px 18px;
+  margin: 5px 18px;
 }
 
 .main-menu .navigation > li:first-child{
@@ -1053,7 +1056,7 @@ width: 100%;
 .sticky-header .logo-box{
   position: relative;
   float: left;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .sticky-header .menu-area{
@@ -3430,7 +3433,7 @@ h3 a:hover{
 
 .testimonial-video .outer-container {
   position: relative;
-  min-height: 350px;
+  min-height: 300px;
 }
 
 .testimonial-video .video-column{
