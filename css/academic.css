@@ -1,0 +1,25 @@
+.academic-calendar-section .section-title {
+    margin-bottom: 50px;
+}
+
+.academic-calendar-section .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.academic-calendar-section .table th,
+.academic-calendar-section .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.academic-calendar-section .table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+.academic-calendar-section .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
