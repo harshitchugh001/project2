@@ -1513,6 +1513,74 @@ width: 100%;
   animation: zoom-fade 5s infinite linear;
   z-index: 1;
 }
+/* about text change */
+.insightful-text {
+  font-family: 'Helvetica Neue', sans-serif; 
+  color: #4a4a4a; 
+  background-color: #fff; 
+  padding: 20px; 
+  margin-bottom: 15px; 
+  border-radius: 8px; 
+  border: 1px solid #ddd; 
+  
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.05); 
+  line-height: 1.8; 
+  font-size: 16px; 
+  max-width: 600px; 
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: justify; 
+}
+/* collabs section css */
+.collaboration-section {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f9f9f9;
+  white-space: nowrap; 
+  overflow-x: scroll; 
+}
+
+.collaboration-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.collab-images {
+  display: inline-block; 
+  white-space: nowrap; 
+}
+
+.collab-images img {
+  max-width: 300px; 
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px; 
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  background: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(186, 187, 192);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff00;
+}
+
+
 
 
 /** service-section **/
@@ -4647,7 +4715,7 @@ h3 a:hover{
 
 .about-section.style-two{
   position: relative;
-  padding: 150px 0px 215px 0px;
+  padding: 150px 0px 1px 0px;
 }
 
 .about-section.style-two .image-box{
